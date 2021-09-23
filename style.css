@@ -124,11 +124,12 @@ background-color: white;
 /* header/hero section */
 @media (max-width: 480px) {
     .logo-menu-display {
-        width: 625px;
-        height: 6vh;
-        gap: 150px;
-        background-color: blue;
+        width: 119rem;
+        height: 15vh;
+        gap: 85rem;
+        background-color: white;
     }
+    
     .logo-menu-display  .push-back{
         padding-right: 100px;
         text-align: right;
@@ -136,21 +137,28 @@ background-color: white;
     }
 
     .hero-container{
-            width: 510px;
-            height: auto;
+            width: 112rem;
+            height: 80rem;
             background-size: cover;
             overflow: hidden;
+            justify-content: center;
+            align-items: flex-end;
     }
 
     .big-text{
-        font-size: 25px;
+        font-size: 9.5rem;
         font-weight: 2;
         
     }
 
     .big-text .bold-text{
-        font-size: 33px;
+        font-size: 15rem;
         font-weight: bold;
+        }
+
+        .straight-line {
+            width: 120%;
+            height: 2rem;
         }
 
     .svg-accessories{
@@ -207,7 +215,7 @@ padding: 10px;
 
 /* Tablet view */
 /* section-2 services section */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px){
     .section-2{
         width: 920px;
         height: 33vh;
@@ -229,20 +237,31 @@ padding: 10px;
 /* section-2 services section */
 @media (max-width: 480px) {
     .section-2{
-            width: 625px;
-            height: auto;
-            padding-top: 10px;
+        width: 119rem;
+        height: auto;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        }
+
+  .para-styling {
+        color: gray;
+        font-size: 3rem;
+        padding-bottom: 0rem;
         }
     .head-styling{
-        font-size: 35px;
-        width: 40%;
+        font-size: 10rem;
+        width: 100%;
     }
-
-    .para-styling-2{
-        width: 60%;
-        font-size: 28px;
+    .para-styling-2 {
+        width: 89%;
+        font-size: 4rem;
         text-align: center;
     }
+    .button-style {
+        font-size: 2.5rem;
+        width: 30rem;
+        height: 10rem;
+}
 
 
 } 
@@ -251,11 +270,11 @@ padding: 10px;
 /* need help section */
 .section-3{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
     justify-content: center; 
 }
 
@@ -284,6 +303,7 @@ width: 85%;
     display: flex;
     flex-direction: column;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .help-text{
