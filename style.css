@@ -19,12 +19,11 @@ background-color: white;
 
 .hero-container{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     display: flex; 
-    justify-content: start; 
+    justify-content: flex-start; 
     align-items: flex-start;
     color: white;
-    padding: 57px;  
     background-image: url('./images/hero-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,14 +42,13 @@ background-color: white;
   } */
 
 .text-flex{
-  padding-top: 120px; 
-  padding-right: 100px;
-  padding-bottom: 0;
-}
+  padding-top: 190px; 
+  padding-left: 100px;
+} 
 
 .big-text{
-    font-size: 80px;
-    font-weight: 2;
+    font-size: 60px;
+    font-weight: lighter;
     padding-top: 0;
     padding-bottom: 0rem;
 }
@@ -58,13 +56,15 @@ background-color: white;
 .big-text .bold-text{
     padding-top: 0;
     margin: 0;
-    font-size: 100px;
+    font-size: 110px;
+    font-weight: bolder;
+    width: 250%;
 }
 
 .straight-line{
     content: "";
-    width: 100%;
-    height: 0.5rem;
+    width: 120%;
+    height: 0.7rem;
     background-color: white;
     padding-top: 0;
 }
@@ -127,8 +127,7 @@ background-color: white;
 /* header/hero section */
 @media (max-width: 480px) {
     .logo-menu-display {
-       
-        gap: 15rem;
+        gap: 30rem;
     }
     
    /* .logo-menu-display  .push-back{
@@ -532,7 +531,7 @@ padding-left: 140px;
 /* our services section (section 5) */
 .section-5{
     width: 100%;
-    height: 65vh;
+    height: auto;
     background-color: white;
 }
 
@@ -544,7 +543,7 @@ padding-left: 140px;
 .services{
     font-size: 50px;
     font-weight: 70px;
-    padding-left: 180px;
+    padding-left: 70px;
 }
 
 .portfolio-display{
@@ -553,29 +552,30 @@ padding-left: 140px;
     justify-content: center;
     align-items: center;
     gap: 0px;
+    padding-left: 70px;
+    padding-bottom: 80px;
 }
 
 .row-display1{
-    display: flex;
-    flex-direction: column;
+    display: unset;
 }
 
-.pad-up{
+/*.pad-up{
     padding-left: 190px;
-}
+} */
 
 .portfolio-img-styling{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background-color: red;
-   padding: 1.5rem;
+   padding: 1rem;
  /*   margin: 15px; */
 }
 
-.padd-back{
+/*.padd-back{
     padding-right: 180px;
-}
+} */
 
 .portfolio-header{
   font-size: 25px;
@@ -583,7 +583,7 @@ padding-left: 140px;
 }
 
 .portfolio-para{
-    width: 83%;
+    width: 75%;
     font-size: 20px;
 }
 
