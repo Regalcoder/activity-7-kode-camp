@@ -81,15 +81,14 @@ background-color: white;
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .logo-menu-display{
-        gap: 250px;
-        justify-content: normal;
-        width: 100%;
-        height: 4vh;
+        gap: 570px;
+        justify-content: center;
+        height: 9vh;
         }
 
-    .logo-menu-display  .push-back{
+  /*  .logo-menu-display  .push-back{
         padding-left: 350px;
-    }
+    } */
 
     .hero-container{
         height: auto;
@@ -127,32 +126,26 @@ background-color: white;
 /* header/hero section */
 @media (max-width: 480px) {
     .logo-menu-display {
-        gap: 30rem;
+        gap: 25rem;
+        width: 130.5%;
     }
-    
-   /* .logo-menu-display  .push-back{
-        padding-right: 100px;
-        text-align: right;
-
-    } */
+  
 
     .hero-container{
-         width: 22.9rem;
-         height: 17rem;
+        width: 130.5%;
         background-size: cover;
-    /* overflow: hidden; */
         justify-content: flex-start;
         align-items: flex-end;
     }
-    /*.text-flex {
-        padding-top: 0px; 
-        padding-right: 100px;
-        padding-bottom: 70px;
-    } */
+    .text-flex {
+        padding-top: 0px;
+        padding-left: 150px;
+        padding-bottom: 50px;
+    } 
     .big-text{
         font-size: 2.5rem;
         font-weight: 2;
-        width: 140%;
+        width: 100%;
          }
 
     .big-text .bold-text{
@@ -161,17 +154,13 @@ background-color: white;
         }
 
         .straight-line {
-            width: 100%;
+            width: 105%;
             height: 0.5rem;
         }
 
     .svg-accessories{
         display: none;
         }
-
-    .straight-line{
-        width: 90%;
-    }
 }
 
 
@@ -238,7 +227,7 @@ padding: 10px;
 /* section-2 services section */
 @media (max-width: 480px) {
     .section-2{
-        width: 30.5rem;
+        width: 130.5%;
         height: auto;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -246,21 +235,21 @@ padding: 10px;
 
         .para-styling {
             color: gray;
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         .head-styling{
-            font-size: 3rem;
-            width: 60%;
+            font-size: 2rem;
+             width: 40%;
         } 
         .para-styling-2{
-            width: 58%;
-            font-size: 1.3rem;
+            width: 39%;
+            font-size: 1rem;
             text-align: center;
             } 
             .button-style {
-                font-size: 0.8rem;
-                width: 10rem;
-                height: 3rem;
+                font-size: 0.5rem;
+                width: 7rem;
+                height: 2.5rem;
             }
 
 
@@ -372,34 +361,40 @@ width: 85%;
 /* mobile view for need help section (section 3) */
 @media (max-width: 480px) {
       .section-3 {
-        width: 30.5rem;
+        width: 130.5%;
         height: auto;
         flex-direction: column;
+        align-items: center;
       }
       .handy-man1 {
-        padding: 40px;
+        align-items: center;
+        padding-top: 40px;
       }
       .handy-man-bg {
-        width: 25rem;
+        width: 20rem;
         height: auto;
     }
       .handy-man-para {
-        font-size: 1.2rem;
-        padding-top: 0px;
-        padding-left: 20px;
-        width: 200%;
+            font-size: 1rem;
+            padding-top: 0px;
+            width: 150%;
+            margin-right: 0px;
     }
       
       .handy-man2 {
-        padding: 40px;
+        align-items: center;
       }
       .help-text {
-        font-size: 2rem;
-    }
-    .call-text {
         font-size: 1.5rem;
     }
-
+    .call-text {
+        font-size: 1.2rem;
+    }
+    .tab-resize{
+        width: 20rem;
+        height: auto;
+        padding-bottom: 40px;
+     }  
 
 }
 
@@ -499,30 +494,38 @@ padding-left: 140px;
 /* best quality section (section 4) */
 @media (max-width: 480px) {
      .section-4 {
-        width: 30.5rem;
+        width: 130.5%;
         height: auto;
      }
      .container-4 {
         flex-direction: column;
          gap: 6rem;
+         align-items: center;
+         padding-left: 0px;
      }
      .image-handyman {
-        padding-right: 120px;
+        padding-right: 0px;
+        width: 60%;
+       height: auto;
      }
      .handy-man-txt{
-        padding-right: 220px;
+        padding-right: 0px;
+     }
+     .quality {
+        font-size: 3.5rem;
+        width: 50%;
      }
      .red-line{
-        width: 110%;
+        width: 80%;
      }
      .handy-man-parastyle{
-        width: 150%;
-        font-size: 1.8rem;
+        width: 65%;
+        font-size: 1.5rem;
      }
      .button-style {
-        font-size: 1rem;
-        width: 12rem;
-        height: 5rem;
+            font-size: 1rem;
+            width: 10rem;
+            height: 3.5rem;
     }
 
 }
@@ -640,7 +643,7 @@ padding-left: 140px;
 /*  our services section (section 5) */
 @media (max-width: 480px) {
      .section-5 {
-        width: 30.5rem;
+        width: 130.5%;
         height: auto;
      }
      .container-5-flex{
@@ -648,12 +651,13 @@ padding-left: 140px;
      }
      .services {
         font-size: 70px;
-        padding: 40px;
+        padding-left: 70px;
      }
      .portfolio-display {
         flex-direction: column;
         text-align: left;
         padding-left: 90px;
+        padding-bottom: 0px;
     }
     .row-display1 {
         align-items: center;
@@ -672,9 +676,8 @@ padding-left: 140px;
         padding-right: 330px;
     }
     .portfolio-para {
-        width: 70%;
-        font-size: 29px;
-        padding-right: 102px;
+        width: 75%;
+        font-size: 25px;
     }
 }
 
@@ -803,7 +806,7 @@ padding-left: 140px;
 /*  section 6 plumbing services section (section 6) */
 @media (max-width: 480px) {
       .section-6 {
-        width: 30.5rem;
+        width: 130.5%;
         height: auto;
     }
     .container-6-flex {
@@ -818,15 +821,20 @@ padding-left: 140px;
         width: 75%;
     }
     .image-flex-container{
-        padding-top: 0px;
+        padding-top: 0px; 
+        align-items: unset; 
+       justify-content: unset;
+       display: flex; 
+        flex-direction: column; 
+        gap: 40px;
     }
     .img-flex {
         flex-direction: column;
         gap: 40px;
-
+        padding-left: 70px;
     }
     .img-size {
-        width: 25rem;
+        width: 29rem;
         height: auto;
         padding-left: 40px;
     }
@@ -923,7 +931,7 @@ padding-left: 140px;
 /*  section 7 to-do section */
 @media (max-width: 480px) {
     .section-7 { 
-        width: 64.5%;
+        width: 130.5%;
         height: auto;
     }
     .container-7 {
@@ -939,9 +947,12 @@ padding-left: 140px;
         width: 60%;
         padding-left: 100px;
     }
-    
-
-
+    .submit-button-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
 }
 
 
@@ -994,8 +1005,8 @@ padding-left: 140px;
 /*  section 8 (footer content) */
 @media (max-width: 480px) {
     .section-8 {
-        width: 30.5rem;
-        height: 40vh;
+        width: 130.5%;
+        height: auto;
     }
     .dummy-text-style {
         padding-left: 115px;
